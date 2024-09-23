@@ -1,22 +1,22 @@
 # Formulário de Cadastro de Produto
 
-Este repositório contém um formulário de cadastro de produtos responsivo, que permite o registro de informações essenciais sobre os produtos disponíveis.
+Este projeto apresenta um formulário de cadastro de produtos responsivo, que permite registrar informações essenciais sobre os produtos disponíveis. O design é otimizado para funcionar em diferentes dispositivos, garantindo uma boa experiência do usuário.
 
 ## Funcionalidades
 
-- Cadastro do nome do produto
-- Indicação da disponibilidade do produto
-- Registro do preço do produto
-- Descrição detalhada do produto
+- **Nome do Produto:** Campo de texto para inserir o nome do produto.
+- **Descrição do Produto:** Área de texto para descrever o produto em detalhes.
+- **Preço do Produto:** Campo numérico para informar o preço do produto.
+- **Disponibilidade:** Seleção para indicar se o produto está disponível.
 
 ## Tecnologias Utilizadas
 
-- HTML5
-- CSS3 (com suporte a design responsivo)
+- **HTML5:** Estrutura do formulário.
+- **CSS3:** Estilização e design responsivo.
 
-## Como Usar
+## Estrutura do Projeto
 
-1. Clone o repositório para sua máquina local:
+
 
    ```bash
    git clone (https://github.com/GabrielStronger/Formulario-de-cadastro)
