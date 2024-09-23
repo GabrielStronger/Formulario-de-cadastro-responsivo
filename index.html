@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Cadastro</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="form-image">
+            <img src="cadastroweb.svg" alt="">
+        </div>
+
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+
+                    <div class="title">
+                        <h1>Cadastre o Produto</h1>
+                    </div>
+
+                </div>
+
+                <div class="input-group">
+
+                    <div class="input-box">
+                        <label for="firstname">Nome do produto</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite o nome do produto"
+                            required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lasttname">Descrição do produto</label>
+                        <input id="lasttname" type="text" name="lasttname" placeholder="Digite a descrição  aqui" required><br>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="product-value">Valor do produto</label>
+                        <input id="product-value" type="number" name="product-value" step="0.01" placeholder="Digite o valor" required>
+                    </div>
+                 
+                </div>
+
+                <div class="product-inputs">
+                    <div class="product-title">
+                        <h6>Disponivel para venda?</h6>
+                    </div>
+
+                    <div class="product-group">
+
+                        <div class="product-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Sim</label>
+                        </div>
+
+                        <div class="product-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Não</label>
+                        </div>
+
+                       
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button><a href="#">Cadastrar</a></button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>
