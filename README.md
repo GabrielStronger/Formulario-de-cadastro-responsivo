@@ -14,9 +14,11 @@ Este projeto apresenta um formulário de cadastro de produtos responsivo, que pe
 - **HTML5:** Estrutura do formulário.
 - **CSS3:** Estilização e design responsivo.
 
+## Visualize e Teste o Projeto
+
+Você pode visualizar e testar o projeto [aqui](https://m4fqlh.csb.app/).
+
 ## Estrutura do Projeto
 
-
-
-   ```bash
-   git clone (https://github.com/GabrielStronger/Formulario-de-cadastro)
+```bash
+git clone https://github.com/GabrielStronger/Formulario-de-cadastro
